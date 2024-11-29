@@ -1,0 +1,80 @@
+body {
+  background-color: white;
+}
+
+
+.wallet-container1 {
+  background:linear-gradient(black,blue,aqua);
+  display: flexbox;
+margin-top: 0px;
+border-radius: 10px;
+height: 150px;
+}
+
+.my-wallet {
+  font-size: 30px;
+  color: lawngreen;
+}
+
+@keyframes more {
+  from {transform:  more(0deg);}
+  to {transform: more(300deg);}
+  }
+
+
+
+.balance {
+  font-size: 20px;
+  margin-top: 20px;
+  padding-left: 8px;
+  color: lawngreen;
+}
+
+.price {
+  margin-top: 25px;
+  color:forestgreen
+}
+
+
+
+.choose{
+  color: navy;
+margin-left: 308px;
+}
+
+.receive {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+
+.send {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.swap {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+a:hover {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+
+.container2 {
+  background: linear-gradient(black,blue,aqua);
+  display: block;
+  height: 600px;
+  width: 600px;
+  border-radius: 16px;
+  text-align: center;
+  justify-items: center;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
